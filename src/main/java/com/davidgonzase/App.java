@@ -1,7 +1,9 @@
 package com.davidgonzase;
 
+import com.davidgonzase.Frame.Display;
+
 public interface App {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        Display display = new Display();
     }
 }
